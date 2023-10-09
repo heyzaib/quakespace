@@ -53,10 +53,10 @@ We have used a variety of tools in order to cater up a highly-immersive experien
 Javascript, React.js, Typescript, Python, Next.js, Flask, Pycharm, Godot, Blender, Microsoft Azure, GoDaddy
 
 # Space Agency Data
-Topographic Map of the Moon - NASA
-Seismic Information - NASA
-NASA CGI Moon Kit
-Seismic Event - Catalog
+- Topographic Map of the Moon - NASA
+- Seismic Information - NASA
+- NASA CGI Moon Kit
+- Seismic Event - Catalog
 
 # Reference
 Globe.gl React library
