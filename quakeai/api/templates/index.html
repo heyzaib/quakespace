@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuakeSpace AI</title>
+    <!-- Add any CSS links or stylesheets here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 5;
+            background-color: #000;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #000000;
+            border: 1px solid #ffffff;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .user-message, .bot-message {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .user-message {
+            text-align: left;
+        }
+
+        .bot-message {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+<h1>QuakeSpace AI</h1>
+<form action="/generate_response" method="post">
+    <input type="text" name="user_input" placeholder="Type your message here" required>
+    <button type="submit">Send</button>
+</form>
+
+{% if user_input %}
+    <div class="user-message">
+        <strong>You:</strong> {{ user_input }}
+    </div>
+    <div class="bot-message">
+        <strong>Chatbot:</strong> {{ generated_text }}
+    </div>
+{% endif %}
+
+<!-- Add any additional styling or scripting here -->
+</body>
+</html>
