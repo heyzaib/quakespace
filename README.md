@@ -4,7 +4,7 @@ Quakespace revolutionises the mapping of moonquakes with an immersive view of th
 ## About
 Originally created for the NASA Space Apps Hackathon held in 2023.
 
-For more info, visit the team page: 
+For more info, visit the team page:
 https://www.spaceappschallenge.org/2023/find-a-team/quakespace/
 
 Try out the map:
