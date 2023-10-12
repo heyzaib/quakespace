@@ -50,7 +50,7 @@ QuakeSpace offers several benefits:
 
 ## What tools, coding languages, hardware, or software did you use to develop your project?
 We have used a variety of tools in order to cater up a highly-immersive experience. The list of programmes are as follows:
-Javascript, React.js, Typescript, Python, Next.js, Flask, Pycharm, Godot, Blender, Microsoft Azure, GoDaddy
+Javascript, React.js, Typescript, Python, Next.js, Flask, Pycharm, Godot, Blender, Microsoft Azure, GoDaddy.
 
 # Space Agency Data
 - Topographic Map of the Moon - NASA
